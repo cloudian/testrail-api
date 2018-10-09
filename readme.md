@@ -1,12 +1,16 @@
-TestRail API 
+TestRail API Python (3.x) wrapper
 ------------
 
-This repository contains several example bindings on how to access TestRail's API (v2).
-You can learn more about TestRail's API here:
+A simple wrapper class for TestRail's API methods
 
-http://docs.gurock.com/testrail-api2/start
+Usage:
 
--- 
-Copyright Gurock Software GmbH. See license.md for details.
+    $ cp config.sample config
 
-http://www.gurock.com/
+Edit `config` to your liking, adding API URL, user, password and project id
+
+Test your configuration by running `api.py` or `example.py`:
+    $ python3 api.py
+    $ python3 example.py
+
+example.py

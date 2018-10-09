@@ -1,0 +1,16 @@
+[testrail]
+base_url = https://YOUR_TESTRAIL_URL
+user = you@example.com
+password = api_token_here
+project_id = project_id_here
+
+[logging]
+file = testrail.log
+level = debug
+
+[api_logging]
+file = api.log
+level = info
+
+[Misc]
+
