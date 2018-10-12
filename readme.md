@@ -12,8 +12,8 @@ Edit `config` to your liking, adding API URL, user, password and project id
 Test your configuration by running `api.py` or `example.py`:
 
     $ python3 api.py
-    
-    
+
+
     $ python3 example.py
 
 example.py
